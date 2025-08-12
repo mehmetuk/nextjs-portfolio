@@ -8,9 +8,12 @@ interface RoutLayoutProps{
 
 const RoutLayout = ({children}:RoutLayoutProps) => {
   return (
-    <div>
+    <div className='flex flex-col'>
     <Header/>
+    <div className='min-h-screen '>
     {children}
+
+    </div>
     <Footer/>
     </div>
   )
