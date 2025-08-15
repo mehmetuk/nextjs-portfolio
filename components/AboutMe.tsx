@@ -9,7 +9,7 @@ const AboutMe = () => {
         {name:"Graphic Design", percent:70},
     ]
   return (
-    <section className='py-16'>
+    <section id='about' className='py-16'>
         <div className='max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-10'>
             <div className='flex'>
     <Image
@@ -25,8 +25,8 @@ const AboutMe = () => {
     <h2 className='text-4xl font-bold mb-4 text-amber-500'>
         About Me
     </h2>
-    <p className='mb-6 text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ea quibusdam mollitia consectetur dignissimos quos accusamus harum aspernatur odit, tempore fugiat perferendis consequuntur labore voluptatibus minus soluta expedita autem est?</p>
-  <p className='mb-6 text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ea quibusdam mollitia consectetur dignissimos quos accusamus harum aspernatur odit, tempore fugiat perferendis consequuntur labore voluptatibus minus soluta expedita autem est?</p>
+    <p className='mb-6 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ea quibusdam mollitia consectetur dignissimos quos accusamus harum aspernatur odit, tempore fugiat perferendis consequuntur labore voluptatibus minus soluta expedita autem est?</p>
+  <p className='mb-6 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ea quibusdam mollitia consectetur dignissimos quos accusamus harum aspernatur odit, tempore fugiat perferendis consequuntur labore voluptatibus minus soluta expedita autem est?</p>
   <div className='space-y-6 mt-8'>
 {
     skills.map((skill,index)=>(
